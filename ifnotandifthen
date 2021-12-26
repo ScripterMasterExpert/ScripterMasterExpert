@@ -1,0 +1,10 @@
+if not Example then
+  Example = false
+end
+
+if Example then
+  Example = true
+end
+
+--> function <--
+this might say if not a thing and if a thing
