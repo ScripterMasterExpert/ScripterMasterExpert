@@ -1,0 +1,4 @@
+local SecuritySystem = Enabled
+
+--> function <--
+this may active the security system
