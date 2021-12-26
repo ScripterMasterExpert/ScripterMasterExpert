@@ -1,0 +1,4 @@
+print("Hello World")
+
+--> function <--
+this print the word (only with the ("")) that's written
