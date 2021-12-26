@@ -1,0 +1,12 @@
+prtint("Player loading")
+local Loading = script.Parent
+LoadingSystem.Name = "Loading"
+
+local LoadingSystem = script.Parent
+LoadingSystem.Name = "LoadingSystem"
+
+wait(PlayerLoaded)
+print("Player loaded")
+
+--> function <--
+this will make the player load
