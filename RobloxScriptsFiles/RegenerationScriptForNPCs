@@ -1,0 +1,34 @@
+local REGENERATION_NPC = script.Parent
+local REGEN = true
+local REGEN_STEPS = true
+local Dead = true
+
+while Dead do
+	REGEN = true
+	REGEN_STEPS = true
+end
+
+REGEN.Name = "REGEN"
+
+--[ when the NPC is "Dead" it will regenerate ]--
+
+if REGEN_STEPS then
+	REGENERATION_NPC = true
+end
+
+local LOSE_NPC_HEALTH = true
+
+while LOSE_NPC_HEALTH do
+	Dead = true
+	REGEN_STEPS = true
+	REGEN = true
+end
+
+-- the regeneration will be on
+
+-- INSTRUCTIONS --
+-- 1. write the script with "--text"
+-- 2. enjoy
+
+--> function <--
+the NPC(s) might respawn
