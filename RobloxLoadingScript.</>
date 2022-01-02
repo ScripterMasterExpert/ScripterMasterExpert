@@ -1,6 +1,6 @@
-prtint("Player loading")
+print("Player loading")
 local Loading = script.Parent
-LoadingSystem.Name = "Loading"
+Loading.Name = "Loading"
 
 local LoadingSystem = script.Parent
 LoadingSystem.Name = "LoadingSystem"
