@@ -1,4 +1,12 @@
-local SecuritySystem = Enabled
+local SecuritySystem = True
+local Intruders = game.Workspace.intruderIndex
+
+local function checkIntruders()
+  if Intruders then
+  Intruders:Destroy
+end()
+
+Intruders.Touched:Connect(checkIntruders)
 
 --> function <--
 this may active the security system
