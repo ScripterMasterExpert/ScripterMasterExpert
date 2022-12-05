@@ -1,6 +1,7 @@
 print("Player loading")
 local Loading = script.Parent
 Loading.Name = "Loading"
+local PlayerLoaded = 5
 
 local LoadingSystem = script.Parent
 LoadingSystem.Name = "LoadingSystem"
